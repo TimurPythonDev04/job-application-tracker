@@ -21,8 +21,7 @@ services:
         fromDatabase:
           name: job-tracker-db
           property: connectionString
-      # Update these two once the frontend has a real Vercel URL.
       - key: CORS_ALLOWED_ORIGINS
-        value: "https://your-frontend.vercel.app"
+        value: "https://job-application-tracker-nine-ivory.vercel.app"
       - key: CSRF_TRUSTED_ORIGINS
-        value: "https://your-frontend.vercel.app"
+        value: "https://job-application-tracker-nine-ivory.vercel.app"

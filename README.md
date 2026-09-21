@@ -5,8 +5,12 @@ a Kanban board to move applications through stages, an analytics dashboard for
 conversion rates, and a reminder command for applications that have gone
 quiet.
 
-**Live demo:** _add the Vercel URL here after deployment_
-**Backend API:** _add the Render URL here after deployment_
+**Live demo:** https://job-application-tracker-nine-ivory.vercel.app
+**Backend API:** https://job-tracker-backend-eeoc.onrender.com
+
+> Both are on free tiers. The backend spins down after inactivity, so the
+> first request after a while can take 30-50s to wake it up — that's Render's
+> free-tier behavior, not a bug.
 
 ## Screenshots
 
